@@ -32,7 +32,7 @@ const MainNavigation = () => {
 								<Link to="/profile">Profile</Link>
 							</li>
 							<li>
-								<button>Logout</button>
+								<button onClick={logoutHandler}>Logout</button>
 							</li>
 						</>
 					)}
